@@ -11,7 +11,7 @@ spec:
     spec:
       chart: nginx
       sourceRef:
-        kind: OCIRepository
+        kind: HelmRepository
         name: bitnamicharts-repository
         namespace: flux-system
       version: "*"
