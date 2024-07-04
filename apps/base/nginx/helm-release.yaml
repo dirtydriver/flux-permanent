@@ -12,7 +12,7 @@ spec:
       chart: nginx
       sourceRef:
         kind: OCIRepository
-        name: nginx-repository
+        name: bitnamicharts-repository
         namespace: flux-system
       version: "*"
   interval: 30m0s
